@@ -6,7 +6,7 @@
 	"require": {},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "1.0.1",
-		"automattic/jetpack-changelogger": "^1.1",
+		"automattic/jetpack-changelogger": "^2.0",
 		"automattic/wordbless": "dev-master"
 	},
 	"autoload": {
@@ -28,18 +28,15 @@
 		],
 		"post-update-cmd": "php -r \"copy('vendor/automattic/wordbless/src/dbless-wpdb.php', 'wordpress/wp-content/db.php');\""
 	},
-	"repositories": [
-		{
-			"type": "path",
-			"url": "../../packages/*",
-			"options": {
-				"monorepo": true
-			}
-		}
-	],
+	"repositories": [],
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"extra": {
+		"autotagger": true,
+		"mirror-repo": "Automattic/jetpack-admin-ui",
+		"changelogger": {
+			"link-template": "https://github.com/Automattic/jetpack-admin-ui/compare/${old}...${new}"
+		},
 		"branch-alias": {
 			"dev-master": "0.1.x-dev"
 		},
