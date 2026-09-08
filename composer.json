@@ -10,7 +10,7 @@
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
-		"automattic/jetpack-logo": "^4.0.0",
+		"automattic/jetpack-logo": "^4.0.1-alpha",
 		"automattic/phpunit-select-config": "^1.0.11"
 	},
 	"suggest": {
