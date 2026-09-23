@@ -6,7 +6,7 @@
 	"require": {
 		"php": ">=7.4",
 		"automattic/jetpack-redirect": "^4.0.0",
-		"automattic/jetpack-status": "^7.0.2"
+		"automattic/jetpack-status": "^7.1.0-alpha"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
@@ -48,7 +48,7 @@
 			"link-template": "https://github.com/Automattic/jetpack-admin-ui/compare/${old}...${new}"
 		},
 		"branch-alias": {
-			"dev-trunk": "0.13.x-dev"
+			"dev-trunk": "0.14.x-dev"
 		},
 		"dependencies": {
 			"test-only": [
